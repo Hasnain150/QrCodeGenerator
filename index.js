@@ -12,7 +12,7 @@ const qrCode=()=>{
         let link=`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${inputt}`;
         let img=document.createElement("img");
         img.setAttribute("src",link);
-        img.setAttribute("alt","Internet Not Working");
+      
         imgDiv.appendChild(img);
     }else {
         imgDiv.style.display="none";
